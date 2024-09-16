@@ -3,7 +3,7 @@
 # Use the base image from the docker-compose file
 FROM langfuse/langfuse:latest
 
-RUN npm install -g npm@10.8.3
+RUN npm install npm@10.8.3
 # Expose port
 EXPOSE 3000
  
